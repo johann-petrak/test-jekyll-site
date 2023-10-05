@@ -1,0 +1,8 @@
+title: 'Test Jekyll Site'
+
+# Plugins
+plugins:
+    - jekyll-paginate
+
+
+destination: "../site"
