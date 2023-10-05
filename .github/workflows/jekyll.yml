@@ -43,7 +43,7 @@ jobs:
         id: pages
         uses: actions/configure-pages@v3
       - name: Build with Jekyll
-        run: pwd 
+        run: ls ..
         #run: ls
         #run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" -s ./src -d ./site -t -V
         env:
